@@ -13,15 +13,25 @@ body{
 }
 
 header{
+    
+    
     /* FLEXBOX */
     display: flex;
     justify-content: space-between;
         align-items: center; 
 width: 100%
 padding: .5rem 1rem;
-border-bottom: .8rem
+border-bottom: .8rem;
+position:: fixed;
+
+
 }
 
+h1{
+    padding-top:12200px;
+
+
+}
 
     
     
