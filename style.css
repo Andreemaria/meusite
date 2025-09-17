@@ -1,0 +1,27 @@
+
+   /* REeset CSS */
+    *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+    }
+
+body{
+
+        background: #9dadd4; /* COR DE FUNDO */
+
+}
+
+header{
+    /* FLEXBOX */
+    display: flex;
+    justify-content: space-between;
+        align-items: center; 
+width: 100%
+padding: .5rem 1rem;
+border-bottom: .8rem
+}
+
+
+    
+    
