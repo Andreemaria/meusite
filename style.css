@@ -19,19 +19,63 @@ header{
     display: flex;
     justify-content: space-between;
         align-items: center; 
-width: 100%
+width: 100%;
+
 padding: .5rem 1rem;
-border-bottom: .8rem;
-position:: fixed;
-
-
+border-bottom: 0.1px solid #000;
+position: fixed;
+}
+/* nave */
+.menu-desktop {
+    display: none;
 }
 
-h1{
-    padding-top:12200px;
+.menu{
 
-
+display: flex;
+list-style: none;
+gap: 1.2rem;
 }
+
+.text_link{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsividade */
+/* A partir de 768 */
+@media(min-width: 768px){
+    .menu-desktop {
+        display: flex;
+
+    }
+}
+    
+
+    
+
+
+
+
+
+
+
+
+
+
 
     
     
