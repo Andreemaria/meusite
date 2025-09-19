@@ -1,4 +1,23 @@
 
+/* Cor DARK*/
+ :root,
+ :root[data-theme='dark'] {
+
+    --cor-fundo:rgb(198, 189, 224);
+    --txt-menu-link:#ec0f0fee;
+--borda:var(--cor-fundo)
+--icon-theme:# ;
+ }
+
+
+/* cor light */
+:root[data-theme='light'] {
+
+--cor-fundo: #251010ee;
+
+}
+
+
    /* REeset CSS */
     *{
 margin: 0;
@@ -8,7 +27,7 @@ box-sizing: border-box;
 
 body{
 
-        background: #9dadd4; /* COR DE FUNDO */
+        background: var(--cor-fundo); /* COR DE FUNDO */
 
 }
 
@@ -22,7 +41,7 @@ header{
 width: 100%;
 
 padding: .5rem 1rem;
-border-bottom: 0.1px solid #000;
+border-bottom: 0.1px solid #160202;
 position: fixed;
 }
 /* nave */
@@ -39,16 +58,36 @@ gap: 1.2rem;
 
 .text_link{
     text-decoration: none;
-
+    
 }
 
 .menu-texte {
+text-transform: uppercase;
+color: var(--txt-menu-link);
+
+}
+#togglethme{
+color: var(--icon-theme);
+cursor:pointer; /*  */
+}
+
+.menu-mobile{
+position:fixed;
+top: 0;
+right: 0;
+transform: trasnlateX(); /* 100% */
+background: var(--fundo-secundario);
+width: 75%;
+display: flex;
+flex-direction: column;
+max-width: 320px;
+padding-top: 4rem;
+height : 100vh; /* viewport Height */
+border-left : 1px solid var(--borda);
+
 
 
 }
-
-
-
 
 
 
