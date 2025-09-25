@@ -1,3 +1,27 @@
+/* Google Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Madimi+One&family=Playwrite+ES:wght@100..400&display=swap');
+
+/* Fontes 2 */
+
+<uniquifier>: Use a unique and descriptive class name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Cor DARK*/
 :root, 
@@ -76,19 +100,19 @@ cursor:pointer; /*  */
 }
 
 .menu-mobile{    
-position:fixed;
-top: 0;
-right: 0;
-transform: translateX(100%); /* 100% */
-background: var(--fundo-secundario);
-width: 75%;
-display: flex;
-flex-direction: column;
-max-width: 320px;
-padding-top: 4rem;
-height : 100vh; /* viewport Height */
-border-left : 1px solid var(--borda);
-align-items: center;
+    position:fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%); /* 100% */
+    background: var(--fundo-secundario);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    padding-top: 4rem;
+    height : 100vh; /* viewport Height */
+    border-left : 1px solid var(--borda);
+    align-items: center;
 }
 
 .menu-mobile.active{
@@ -133,27 +157,80 @@ justify-content: center;
 /* Herança */
 .menu-link.active .menu-text,
 .menu-link:hover .menu-text {
-color:red;
+    color:red;
 }
-section {
-padding-top: 150px;
-color:#eee
 
 
+h1 {
+    font-size: 2.5rem;
+
 }
+
+
+#home {
+    padding: 3.5rem 1rem;
+    }
+
+/* Flex Box da HOME */
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-content{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+
 
 
 /* responsividade */
 /* A partir de 768 */
 @media(min-width: 768px) {
-.menu-desktop {
-display: flex;
-}
-.btn-menu-mobile{
-display: none;  /* Em telas Menu hamburrguer */
-
+   
+    .menu-desktop {
+        display: flex;
     }
+    
+    .btn-menu-mobile{
+         display: none;  /* Em telas Menu hamburrguer */
+    }
+
+h1 {
+  font-size: 5rem;
+  }
+
 }
+
+/* Telas 992 */
+@media (min-width: 992px) {
+h1{
+font-size: 6rem;
+
+}
+}
+
+/* Telas 1400px */
+@media (min-width: 1400px){
+h1{
+
+
+
+}
+
+
+}
+
+
+
+
+    
     
 
     
