@@ -184,8 +184,11 @@ h1 {
 
 }
 
-
-#home {
+/* Reaproveitar as seçoes */
+#home,
+.projetos,
+.sobre,
+.contato {
     padding: 3.5rem 1rem;
 }
 
@@ -195,15 +198,20 @@ h1 {
 #home {
     display: flex;
     flex-direction: column;
-
+gap: 2rem
 }
 
 .main-content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-
 }
+
+.descricao-video {
+    padding: 6.25rem 6rem 2rem 6rem;
+    }
+
+
 
 /* Herança */
 
@@ -220,9 +228,20 @@ h1 {
 
 
 /* responsividade */
+
+@media (max-width: 768){
+    
+}
+
+
+
+
+
 /* A partir de 768 */
 @media(min-width: 768px) {
-
+header {
+    padding: 1rem 6rem;
+}
     .menu-desktop {
         display: flex;
     }
@@ -234,26 +253,98 @@ h1 {
 
     h1 {
         font-size: 5rem;
+        color:var(--cor-titulo);
+        font-family: var(--fonte-titulo-h3);
+    }
+
+    h2 {
+text-aling: center;
+font-size: 2rem
+
+
     }
 
     .header-logo {
         min-width: 30%;
     }
+    #home,
+    .projetos,
+    .sobre {
+        padding: 8rem  6rem  4rem  6rem; 
+    }
+
+    .main-content {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
 
 /* Telas 992 */
 @media (min-width: 992px) {
-    h1 {
-        font-size: 6rem;
+h1 {
+font-size: 6rem;
 
-    }
+}
 
 }
 
 /* Telas 1400px */
 @media (min-width: 1400px) {
-    h1 {
-        font-size: 6.5rem;
+h1 {
+font-size: 7rem;
+    }
+}
+
+
+
+.descricao-video{
+    display: flex;
+    flex-direction:  column;
+    justify-content: ;
+    align-items: ;
+    gap: 1.25rem;
+    padding: 6.25rem 1rem 2rem;
+    background: #626262;
+    margin-top: -5.5rem;
+}
+
+.video iframe{
+aspect-ratio: 16/9;
+/*  wind: 100% */
+}
+
+.descricao-video h2
+
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.projeto-card {
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+}
+
+.img-card {
+    width: 100%;
+    border-radius: 1rem 3rem 10rem 10rem;
+    box-shadow: 4px 7px 55px 5px #d3c8c8;
+    pointer-events: none;
+    object
+    object-position: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+    .card-list {
+        list-style: none;
     }
 
-}
+
