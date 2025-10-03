@@ -1,95 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="dark">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- title = Titulo da Pagina -->
-    <title>Portfolio - Andre</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- title = Titulo da Pagina -->
+  <title>Portfolio - Andre</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 
-  <body>
-    <!-- SEMANTICA SIGNIFICADO -->
-    <!-- CABEÇALHO -->
-    <header>
-      <!-- MENU // NAVEGAÇÃO -->
-      <nav class="menu-desktop">
-        <ul class="menu menu-principal">
-          <li>
-            <a href="#home" class="menu-link active">
-              <span class="menu-text"> HOME </span>
-            </a>
-          </li>
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+</head>
 
-          <li>
-            <a href="#projetos" class="menu-link">
-              <span class="menu-text"> PROJETOS </span>
-            </a>
-          </li>
-
-          <li>
-            <a href="" class="menu-link">
-              <span class="menu-text"> SOBRE </span>
-            </a>
-          </li>
-
-          <li>
-            <a href="" class="menu-link">
-              <span class="menu-text"> CONTATO </span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- LOGO -->
-      <div class="header-logo">
-        <a href="#home">
-          <img src="img/logo.png" class="logo" />
-        </a>
-      </div>
-
-      <!-- TROCAR COR TEMA -->
-      <div class="header-toggle">
-        <i class="bi bi-sun" id="toggleTheme"> </i>
-        <!-- ICONE -->
-
-        <!-- botao lista Mobile -->
-        <button id="menuHamburger" class="btn-menu-mobile">
-          <!-- Menu Hamburgue -->
-          <i class="bi bi-list"></i>
-        </button>
-      </div>
-    </header>
-
-    <!-- Menu Lista Mobile -->
-    <nav id="menuMobile" class="menu menu-mobile">
-      <ul class="menu-list">
-        <li class="menu-item">
+<body>
+  <!-- SEMANTICA SIGNIFICADO -->
+  <!-- CABEÇALHO -->
+  <header>
+    <!-- MENU // NAVEGAÇÃO -->
+    <nav class="menu-desktop">
+      <ul class="menu menu-principal">
+        <li>
           <a href="#home" class="menu-link active">
             <span class="menu-text"> HOME </span>
           </a>
         </li>
 
-        <li class="menu-item">
+        <li>
           <a href="#projetos" class="menu-link">
             <span class="menu-text"> PROJETOS </span>
           </a>
         </li>
 
-        <li class="menu-item">
+        <li>
           <a href="" class="menu-link">
             <span class="menu-text"> SOBRE </span>
           </a>
         </li>
 
-        <li class="menu-item">
+        <li>
           <a href="" class="menu-link">
             <span class="menu-text"> CONTATO </span>
           </a>
@@ -97,161 +46,311 @@
       </ul>
     </nav>
 
-    <!--  Slogan -->
+    <!-- LOGO -->
+    <div class="header-logo">
+      <a href="#home">
+        <img src="img/logo.png" class="logo" />
+      </a>
+    </div>
 
+    <!-- TROCAR COR TEMA -->
+    <div class="header-toggle">
+      <i class="bi bi-sun" id="toggleTheme"> </i>
+      <!-- ICONE -->
+
+      <!-- botao lista Mobile -->
+      <button id="menuHamburger" class="btn-menu-mobile">
+        <!-- Menu Hamburgue -->
+        <i class="bi bi-list"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Lista Mobile -->
+  <nav id="menuMobile" class="menu menu-mobile">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a href="#home" class="menu-link active">
+          <span class="menu-text"> HOME </span>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="#projetos" class="menu-link">
+          <span class="menu-text"> PROJETOS </span>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="" class="menu-link">
+          <span class="menu-text"> SOBRE </span>
+        </a>
+      </li>
+
+      <li class="menu-item">
+        <a href="" class="menu-link">
+          <span class="menu-text"> CONTATO </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--  Slogan -->
+
+  <main id="home">
+
+    <!-- Carrossel Bootstrap // Slides/Banner -->
+    <section id="carouselBootstrap">
+    </section>
+
+    <!-- Slogan -->
     <div class="main-content">
+
       <h1>
-        <!-- Melhor que muita gente -->
-        Soluçoes que Aproxima
+       Entender para atender
       </h1>
-      <p>Andre Sandro Carlos da Silva, São Paulo - SP, aluno de Front-End</p>
-    
+
+      <p>
+        Andre Sandro, São Paulo - SP, aluno de Front-End.
+      </p>
+
       <ul class="menu menu-social">
-        
         <!-- Github -->
         <li>
-          <a href="https://github.com/Andreemaria" target="_blank">
-               <i class="bi bi-github"></i>
-         
+          <a href="https://github.com/guuhferiani" target="_blank">
+            <i class="bi bi-github"></i>
           </a>
         </li>
 
         <li>
-          <a href="https: //wa.me/551155778546" target="_blank">
-            <i class="bi bi-whatsapp"></i>
-          </a>
-       <li> 
-
-        <li>
-          <a href="https: //instagram.com" target="_blank">
+          <a href="#" target="_blank">
             <i class="bi bi-instagram"></i>
           </a>
-        <li> 
-        
-       
+        </li>
+
+        <li>
+          <a href="#" target="_blank">
+            <i class="bi bi-facebook"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://wa.me/5511" target="_blank">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+        </li>
+
       </ul>
 
-
-
-
     </div>
+
     <div class="video">
-    <iframe width="478" height="849" src="https://www.youtube.com/embed/dc4JmIEU6DE" title="Como convencer pessoas - O lobo de wall street" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <iframe src="https://www.youtube.com/embed/Lh5PSFghH6M?start=4" title="Edite fotos com Gemini 🍌" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     </div>
 
-    <main></main>
+  </main>
 
-<section class="descrição-video">
-<h2>
-<!-- Conheça meus projetos -->
-</h2>
+  <section class="descricao-video">
+    <h2>
+      Conheça os meus projetos realizados
+    </h2>
+  </section>
 
-</section>
+  <!-- Projetos -->
+  <section id="projetos" class="projetos">
+    <h2> Projetos </h2>
 
-  
+    <div class="projetos-container">
 
-    <!-- Projetos -->
-    <section id="projetos">
-      <h2>Projetos</h2>
-      <div class="projeto-container">
+      <!-- PROJETO 1 -->
+      <div class="projeto-card">
 
-        <!-- PROJETO 1 -->
-<div class="projeto-card">
-<img src="img/aperto-de-mao-de-negocios-corporativos-entre-parceiros-de-negocios (1).jpg" alt="">
-          
-<div class="img-card">
+        <img src="img/Projetos/projeto1.jpg"
+          alt="Entender para atender."
+          class="img-card">
 
-<h3 class="card-title"> Games Stor </h3>
+        <div class="card-body">
 
+          <h3 class="card-title"> Games Store </h3>
 
-<p class="card-descricao">
-   Loja online para Vendas de Jogos Digitais.
-   </p>
+          <p class="card-descricao">
+            Loja online para Vendas de Jogos Digitais.
+          </p>
 
+          <ul class="card-list">
+            <li class="card-item">
+              <i class="bi bi-playstation"></i>
+              Jogos de PS5
+            </li>
+            <li class="card-item">
+              <i class="bi bi-nintendo-switch"></i>
+              Jogos de Nintendo Switch
+            </li>
+            <li class="card-item">
+              <i class="bi bi-xbox"></i>
+              Jogos de Xbox
+            </li>
+          </ul>
 
- <ul class="card-list">
- <li class="card-item">
-  <i class="bi bi-apple-music"></i>
-  Musica
-    
-  </li>
+<div class="card-button">
+  <button class ="btn-primario">
+    <a href="#" target="_blank">
+      <span> Prévia </span>
+     <i class="bi bi-arrow-up-right"></i>
+      
 
-  <li class="card-item">
-  <i class="bi bi-arrow-counterclockwise"></i>
-  Voltar
+      </i>
+    </a>
 
-  </li>
-
-<li class="card-item">
-  <i class="bi bi-arrow-down-circle-fill"></i>
-  Final
-</li>
-
-
-div class="projeto-card">
-<img src="img/funcionario-que-trabalha-num-ambiente-de-comercializacao (1).jpg">
-          
-<div class="card-body">
-
-<h3 class="card-title"> Games Stor </h3>
-
-
-<p class="card-descricao">
-   Loja online para Vendas de Jogos Digitais.
-   </p>
-
-
- <ul class="card-list">
- <li class="card-item">
-  <i class="bi bi-apple-music"></i>
-  Musica
-    
-  </li>
-
-  <li class="card-item">
-  <i class="bi bi-arrow-counterclockwise"></i>
-  Voltar
-
-  </li>
-
-<li class="card-item">
-  <i class="bi bi-arrow-down-circle-fill"></i>
-  Final
-</li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
- </ul>
+  </button>
 
 </div>
 
-
-
-         </div>
+        </div>
 
       </div>
-    </section>
-    
+      <!-- Fim PROJETO 1 -->
+
+      <!-- PROJETO 2 -->
+      <div class="projeto-card card-reverse">
+
+        <img src="img/Projetos/projeto2.jpg" alt="" class="img-card">
+
+        <div class="card-body">
+
+          <h3 class="card-title"> Josis Box </h3>
+
+          <p class="card-descricao">
+            Livraria Digital.
+          </p>
+
+          <ul class="card-list">
+            <li class="card-item">
+              <i class="bi bi-bookmark-heart"></i>
+              Livros Romance
+            </li>
+            <li class="card-item">
+              <i class="bi bi-fork-knife"></i>
+              Livros Culinaria
+            </li>
+            <li class="card-item">
+              <i class="bi bi-person-arms-up"></i>
+              Livro de autoajuda
+            </li>
+          </ul>
+
+          <div class="card-button">
+  <button class ="btn-primario">
+    <a href="#" target="_blank">
+      <span> Prévia </span>
+     <i class="bi bi-arrow-up-right"></i>
+      
+      </i>
+    </a>
+        </div>
+
+      </div>
+      <!-- Fim PROJETO 2 -->
 
 
-    <!-- js -->
-    <script src="js/script.js"></script>
-  </body>
+      <!-- PROJETO 3 -->
+      <div class="projeto-card">
+
+        <img src="img/Projetos/projeto3.jpg" alt="" class="img-card">
+
+        <div class="card-body">
+
+          <h3 class="card-title"> Portfolio Profissional </h3>
+
+          <p class="card-descricao">
+            A história por trás do meu Portfolio
+          </p>
+
+          <ul class="card-list">
+            <li class="card-item">
+              <i class="bi bi-journal-bookmark-fill"></i>
+              Postagens relacionadas em Destaque
+            </li>
+            <li class="card-item">
+              <i class="bi bi-phone-flip"></i>
+              Projetos Responsivos
+            </li>
+            <li class="card-item">
+              <i class="bi bi-images"></i>
+              Seção de Projetos
+            </li>
+          </ul>
+          <div class="card-button">
+  <button class ="btn-primario">
+    <a href="#" target="_blank">
+      <span> Prévia </span>
+     <i class="bi bi-arrow-up-right"></i>
+      
+
+      </i>
+    </a>
+        </div>
+
+      </div>
+      <!-- Fim PROJETO 3 -->
+
+    </div> <!-- Fim projetos-container -->
+
+  </section>
+
+  <section id="sobre" class="sobre">
+
+<!-- GRID Colunas -->
+<div class="sobre-content1">
+  <img src="imag/avatar.jpg" alt="" class="sobre-avatar">
+
+  <div class="sobre-descricao">
+    <h2> Sobre Mim</h2>
+    <p>
+      Andre Sandro, Entusiasta por negocios, tecnologia e projetos. Meus primeiros passos foi na Empresa Coca Coca, onde la eu pude me desenvolver e aprender profissionalmente.
+
+    </p>
+<div class="sobre-skills">
+  <i class="bi bi-translate"></i>
+  <span> inles: Intermediario </span>
+
+</div>
+<div class="descricao-button">
+  <button class="bnt-primario">
+    <a href="link do linkedin"></a>
+    <span> Conecte-se Comigo </span>
+    <i class="bi bi-arrow-up-right">
+    </i>
+
+  </button>
+
+</div>
+</div>
+  </div>
+  
+</div>
+
+    Sobre
+  </section>
+
+  <section id="contato" class="contato">
+    Contato
+  </section>
+
+  <footer>
+    <p> &copy; 2025. </p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
+
+<!-- ALT + SHIFT + A = Comentario -->
+<!-- ALT + SHIFT + F = Identação -->
+<!-- Shift + ! = Iniciar html -->
