@@ -345,6 +345,76 @@ margin-right: 15px;
 .card-list  .card-item:hover i {
     color: #1c38c4
 }
+/* SOBRE */
+.sobre {
+  display: flex;
+  flex-direction: column;
+gap: 1.5rem
+}
+
+.sobre-content1,
+.sobre-content2 {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 2rem
+}
+
+.sobre-avatar{
+width: 100%;
+border-radius: 50rem;
+}
+
+.sobre-descricao{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+gap: 125rem
+}
+
+.sobre-icones i,
+.sobre-skills i {
+
+  font-size: 1.5rem;
+}
+
+/* Content */
+.sobre-content2 .col1,
+.sobre-content2 .col2 {
+  display: flex;
+  flex-direction: column;
+text-align: justify;
+gap: 2rem;
+}
+
+.sobre-content2 .col .formacao,
+.sobre-content2 .col .exp {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+
+
+
+
+
+
+/* ACCORDION */
+.accordion-body {
+  display: none;
+}
+
+.accordion-item.active .accordion-body {
+  display: flex;
+}
+
+.accordion-item.active .bi-caret-down-fill{
+  transform: rotate(180deg);
+}
+
+
 
 
 
@@ -425,10 +495,18 @@ h2{
     justify-content: space-between;
 }
 
-
+.sobre-content1
+.sobre-content2 {
+  display: grid;
+grid-template-columns: 30% 70%;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 4rem;
 }
 
 
+
+}
 
 h3{
     font-size: 2.55rem;
