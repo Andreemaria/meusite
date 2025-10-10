@@ -482,28 +482,34 @@ andremaria200687@gmail.com
       <div class="contato-formulario">
         <h2> Fale Comigo</h2>
 
-        <form action="" method="post">
+        <form action="" method="post" class="form-contato">
 
 
           <label for=""> Senha </label>
           <!-- Nome -->
-          <input type="text" placeholder="Nome completo*" required>
+          <input type="text" name="Nome" placeholder="Nome Completo*"required>
+
           <!-- Email -->
-          <input type="email" name="" id="" placeholder="Seu E-mail" required>
+          <input type="email" name="email" placeholder="Seu E-mail" required>
 
           <!-- Telefone -->
-      <input type="tel" placeholder=" Seu telefone" required>
+           <!-- ID para mascara do JS -->
+      <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone" required>
 
 <!-- Asunto -->
 <input type="text" placeholder="Assunto">
 
 
 <!-- Campo Mensagem -->
- <textarea name="" id="" required></textarea>
+ <textarea name="" id="" rows="5" required="digite sua mensagem">
 
- <button type="submit">
+ </textarea>
+
+ <button type="submit" class="btn-primario">
   <span> Enviar</span>
+  <i class="bi bi-send"> </i>
  </button>
+
 </form>
 <div>
 
@@ -536,7 +542,17 @@ andremaria200687@gmail.com
   </section>
 
   <footer>
-    <p> &copy; 2025. </p>
+    <p> &copy; 2025. Portifolio desenvolvido para fins educativos nas aulas do prof 
+      <a href="https://github.com/guuhferiani"
+      target="_blank">
+      Senai Leopoldina - SP
+          </a>
+Desenvolvido por 
+<a href=""target="_blank">
+  <i class="bi bi-github"></i>
+Andre Sandro Carlos da Silva
+  </a>
+    </p>
   </footer>
 
   <!-- JS -->
